@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+/* Navigation bar */
+.navi {
+    background-color: black;
+    color: white;
+    padding: 17px;
+}
+
+.navi ul {
+    display: inline-block;
+    margin: 1px 19px;
+    position: relative;
+    left: 15px;
+}
+
+.navi ul a {
+    color: white;
+    text-decoration: none;
+}
+.navi a:hover{
+    color: red;
+}
+
+.navi button{
+    position: relative;
+    background-color:rgb(255, 255, 255) ;
+    text-decoration: none;
+    left: 840px;
+    top: -3px;
+    height: 25px;
+    width: 75px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+.navi button:hover{
+    background-color: darkorange;
+    color: #fff;
+}
+
+/* Main Page */
+.mainpage{
+    background-image: url(/img/composition-small-airplanes-bus-passport-map.jpg);
+    height: 685px;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+.mainpage div{
+    height: 300px;
+    width: 500px;
+}
+.hd h1{
+    position: relative;
+    left: 200px;
+    top: 75px;
+    font-family: 'Bebas Neue', sans-serif;}
+.hd p{
+    position: relative;
+    left: 200px;
+    top:85px;
+}
+
+/* Destination */
+.des {
+    width: 100%;
+    height: 1210px;
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.des img{
+    width: 625px;
+    height: 315px;
+    margin-bottom: 20px;
+    
+}
+.des1,.des2{
+        background-color: #fff;
+        padding: 40px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        margin: 0 20px 20px 20px;
+        position: relative;
+        top: 64px;
+        width: 635px;
+        height: 445px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+/* About */
+.about {
+    height: 500px;
+    background: linear-gradient(aliceblue,rgb(225, 159, 238));
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.about img{
+    height: 400px;
+    width: 420px;
+    box-shadow: -10px 10px 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+.about div{
+    width: 710px;
+    border-top: 2px;
+    border-color: #333;
+}
+
+/* Contact us */
+.conus{
+    /* background-color: darkgray; */
+    background: linear-gradient(rgb(225, 159, 238),rgb(249, 134, 134));
+    height: 305px;
+    display: flex;
+    padding: 24px 100px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conus img{
+    height: 200px;
+    width: 300px;
+    box-shadow: -10px 10px 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+.conus div{
+    width: 690px;
+}
+
+/* Footer */
+.myfooter p{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 18px;
+    text-align: center;
+    padding: 8px;
+}
